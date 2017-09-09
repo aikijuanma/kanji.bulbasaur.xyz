@@ -1,0 +1,230 @@
+// main: default.less
+
+.kaku { font-family: "HiraKakuPro-W3", "Hiragino Kaku Gothic Pro W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "游ゴシック", YuGothic, "ＭＳ Ｐゴシック", "MS PGothic", "ＭＳ ゴシック", "MS Gothic", sans, sans-serif; }
+.mincho { font-family: "HiraMinPro-W3", "Hiragino Mincho Pro W3", "Hiragino Mincho Pro", "ヒラギノ明朝 Pro W3", "游明朝", YuMincho, "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", "MS Mincho", serif; }
+
+.anton { font-family: 'Anton', sans-serif; }
+.notosans { font-family: 'Noto Sans', sans-serif; }
+.notoserif { font-family: 'Noto Serif', serif; }
+.notosansjapanese { font-family: "Noto Sans Japanese"; }
+
+.eastern-sans { .notosansjapanese; }
+.eastern-serif { /* null */ }
+.western-sans { .notosans; }
+.western-serif { .notoserif; }
+
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+
+html {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 400;
+}
+
+@-moz-document url-prefix() {
+  body {
+    font-weight: lighter !important;
+  }
+}
+
+* {
+  -webkit-box-sizing: inherit;
+     -moz-box-sizing: inherit;
+          box-sizing: inherit;
+
+  &:after,
+  &:before {
+    -webkit-box-sizing: inherit;
+       -moz-box-sizing: inherit;
+            box-sizing: inherit;
+  }
+}
+
+:focus,
+button:focus {
+ outline: -webkit-focus-ring-color auto 0;
+}
+
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+
+.thin { font-weight: 100; }
+.extra_light { font-weight: 200; }
+.light { font-weight: 300; }
+.regular { font-weight: 400; }
+.medium { font-weight: 500; }
+.semi_bold { font-weight: 600; }
+.bold { font-weight: 700; }
+.extra_bold { font-weight: 800; }
+.black { font-weight: 900; }
+
+.italic { font-style: italic; }
+.normal { font-style: normal; }
+
+@white: #ffffff;
+@black: #222222;
+
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+
+.clearfix() {
+
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+.fadeIn {
+  .visible;
+
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fadeOut {
+  .invisible;
+
+  -webkit-animation-name: fadeOut;
+          animation-name: fadeOut;
+
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@-webkit-keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.fliph {
+  -webkit-transform: scaleX(-1);
+     -moz-transform: scaleX(-1);
+       -o-transform: scaleX(-1);
+          transform: scaleX(-1);
+  -ms-filter: "FlipH";
+      filter: FlipH;
+}
+
+.flipv {
+  -webkit-transform: scaleY(-1);
+     -moz-transform: scaleY(-1);
+       -o-transform: scaleY(-1);
+          transform: scaleY(-1);
+  -ms-filter: "FlipV";
+      filter: FlipV;
+}
+
+.hide {
+  display: none;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.opaque {
+  opacity: 1;
+  filter:alpha(opacity=100);
+}
+
+.show {
+  display: block;
+}
+
+.translucent {
+  opacity: 0.50;
+  filter: alpha(opacity=50);
+}
+
+.transparent {
+  opacity: 0;
+  filter:alpha(opacity=0);
+}
+
+.transition {
+  -webkit-backface-visibility: hidden; // fix for transition flickering
+  -webkit-transition: .3s ease;
+     -moz-transition: .3s ease;
+      -ms-transition: .3s ease;
+       -o-transition: .3s ease;
+          transition: .3s ease;
+}
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.vertical-align-flexbox {
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+}
+
+.visible {
+  visibility: visible;
+}

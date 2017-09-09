@@ -1,0 +1,30 @@
+# Setup
+title: にほんご チャレンジ かんじ N4-5
+url:   http://kanji-n4-5.bulbasaur.xyz
+
+# Custom vars
+version: 0.0.0
+github:
+  repo:  https://github.com/aikijuanma/kanji-n4-5.bulbasaur.xyz
+
+# Serving
+port:             4000
+host:             localhost
+baseurl:          "" # does not include hostname
+
+# Outputting
+timezone:      Europe/Madrid
+
+# My collections
+collections:
+  characters:
+    output:     true
+    permalink:  /:collection/:name
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "characters"
+    values:
+      layout: "character"

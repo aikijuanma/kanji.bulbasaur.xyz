@@ -1,0 +1,67 @@
+<nav class="navbar navbar-dark bg-dark sticky-top">
+  <a class="navbar-brand">にほんご <b>チャレンジ</b> かんじ <span>N4-5</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="oi oi-bolt"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <span class="navbar-text hide" lang="ca" xml:lang="ca">Part 1 Lliço:</span>
+    <span class="navbar-text show" lang="en" xml:lang="en">Chapter 1 Lesson:</span>
+    <span class="navbar-text hide" lang="es" xml:lang="es">Parte 1 Lección:</span>
+    <div class="navbar-nav" id="navbarChapter1">
+
+      {% assign lessons = site.characters | group_by: "lesson" %}
+
+      {% for lesson in lessons %}
+
+      <a class="nav-item nav-link" href="#Lesson{{ lesson.name }}">{{ lesson.name }}</a>
+
+      {% endfor %}
+
+      <a class="nav-item nav-link" href="#Chapter1Lesson3">3</a>
+      <a class="nav-item nav-link" href="#Chapter1Lesson4">4</a>
+      <a class="nav-item nav-link" href="#Chapter1Lesson5">5</a>
+      <a class="nav-item nav-link" href="#Chapter1Lesson6">6</a>
+      <a class="nav-item nav-link" href="#Chapter1Lesson7">7</a>
+      <a class="nav-item nav-link" href="#Chapter1Lesson8">8</a>
+      <a class="nav-item nav-link" href="#Chapter1Lesson9">9</a>
+      <a class="nav-item nav-link" href="#Chapter1Lesson10">10</a>
+      <a class="nav-item nav-link" href="#Chapter1Lesson11">11</a>
+
+    </div>
+    <span class="navbar-text hide" lang="ca" xml:lang="ca">Part 2 Lliço:</span>
+    <span class="navbar-text show" lang="en" xml:lang="en">Chapter 2 Lesson:</span>
+    <span class="navbar-text hide" lang="es" xml:lang="es">Parte 2 Lección:</span>
+    <div class="navbar-nav" id="navbarChapter2">
+
+      <a class="nav-item nav-link" href="#Chapter2Lesson1">1</a>
+      <a class="nav-item nav-link" href="#Chapter2Lesson2">2</a>
+      <a class="nav-item nav-link" href="#Chapter2Lesson3">3</a>
+      <a class="nav-item nav-link" href="#Chapter2Lesson4">4</a>
+      <a class="nav-item nav-link" href="#Chapter2Lesson5">5</a>
+      <a class="nav-item nav-link" href="#Chapter2Lesson6">6</a>
+      <a class="nav-item nav-link" href="#Chapter2Lesson7">7</a>
+      <a class="nav-item nav-link" href="#Chapter2Lesson8">8</a>
+      <a class="nav-item nav-link" href="#Chapter2Lesson9">9</a>
+      <a class="nav-item nav-link" href="#Chapter2Lesson10">10</a>
+      <a class="nav-item nav-link" href="#Chapter2Lesson11">11</a>
+      <a class="nav-item nav-link" href="#Chapter2Lesson12">12</a>
+      <a class="nav-item nav-link disabled" href="#Chapter2Lesson13">13</a>
+      <a class="nav-item nav-link disabled" href="#Chapter2Lesson14">14</a>
+      <a class="nav-item nav-link disabled" href="#Chapter2Lesson15">15</a>
+      <a class="nav-item nav-link disabled" href="#Chapter2Lesson16">16</a>
+      <a class="nav-item nav-link disabled" href="#Chapter2Lesson17">17</a>
+      <a class="nav-item nav-link disabled" href="#Chapter2Lesson18">18</a>
+      <a class="nav-item nav-link disabled" href="#Chapter2Lesson19">19</a>
+      <a class="nav-item nav-link disabled" href="#Chapter2Lesson20">20</a>
+
+    </div>
+    <span class="navbar-text hide" lang="ca" xml:lang="ca">Idioma:</span>
+    <span class="navbar-text show" lang="en" xml:lang="en">Language:</span>
+    <span class="navbar-text hide" lang="es" xml:lang="es">Idioma:</span>
+    <div class="navbar-nav" id="navbarLanguages">
+      <a class="switch-language-ca nav-item nav-link" href="#">ca</a>
+      <a class="switch-language-en nav-item nav-link active" href="#">en <span class="sr-only">(current)</span></a>
+      <a class="switch-language-es nav-item nav-link" href="#">es</a>
+    </div>
+  </div>
+</nav>
