@@ -1,54 +1,29 @@
 {% include header.html %}
 
-{% assign lessons = site.characters | group_by: "lesson" %}
+  {% assign lessons = site.kanji | where: "part","1"| group_by: "lesson" %}
 
-{% for lesson in lessons %}
+  {% for lesson in lessons %}
 
-<!-- Lesson {{ lesson.name }} -->
-<div id="Lesson{{ lesson.name }}" class="container-fluid" data-lesson="{{ lesson.name }}">
+  <!-- Part 1 Lesson {{ lesson.name }} -->
+  <div id="Part1Lesson{{ lesson.name }}" class="container-fluid" data-lesson="{{ lesson.name }}">
 
-  {% for item in lesson.items %}
+    {% include item.html %}
 
-  <div class="row">
-    <div class="col-12" data-number="{{ item.number }}">
-      <a href="http://jisho.org/search/{{ item.kanji }}%20%23kanji" target="_blank" title="Jisho.org↗">{{ item.kanji }}</a>
-    </div>
-    <div class="col-12">
-      <div class="float-left">
-        {{ item.kunyomi | markdownify | remove: '<p>' | remove: '</p>' }}
-      </div>
-      <div class="float-right">
-        {{ item.onyomi | markdownify | remove: '<p>' | remove: '</p>' }}
-      </div>
-    </div>
-    <div class="col-12">
-      <ul>
-
-        {% for word in item.words %}
-
-        <li>
-          <ruby lang="ja" xml:lang="ja"><rb><a href="http://jisho.org/word/{{ word.kanji | markdownify | remove: '<p>' | remove: '</p>' }}" target="_blank" title="Jisho.org↗">{{ word.kanji | markdownify | remove: '<p>' | remove: '</p>' }}</a></rb><rt>（{{ word.kana | markdownify | remove: '<p>' | remove: '</p>' }}）</rt></ruby>
-
-          {% for translation in word.translations %}
-
-          <span class="hide" lang="ca" xml:lang="ca">{{ translation.ca | markdownify | remove: '<p>' | remove: '</p>' }}</span>
-          <span class="show" lang="en" xml:lang="en">{{ translation.en | markdownify | remove: '<p>' | remove: '</p>' }}</span>
-          <span class="hide" lang="es" xml:lang="es">{{ translation.es | markdownify | remove: '<p>' | remove: '</p>' }}</span>
-
-          {% endfor %}
-
-        </li>
-
-        {% endfor %}
-
-      </ul>
-    </div>
   </div>
 
   {% endfor %}
 
-</div>
+  {% assign lessons = site.kanji | where: "part","2"| group_by: "lesson" %}
 
-{% endfor %}
+  {% for lesson in lessons %}
+
+  <!-- Part 2 Lesson {{ lesson.name }} -->
+  <div id="Part2Lesson{{ lesson.name }}" class="container-fluid" data-lesson="{{ lesson.name }}">
+
+    {% include item.html %}
+
+  </div>
+
+  {% endfor %}
 
 {% include footer.html %}

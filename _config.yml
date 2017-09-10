@@ -17,14 +17,6 @@ timezone:      Europe/Madrid
 
 # My collections
 collections:
-  characters:
+  kanji:
     output:     true
     permalink:  /:collection/:name
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "characters"
-    values:
-      layout: "character"
