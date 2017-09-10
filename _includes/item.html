@@ -22,9 +22,9 @@
 
         {% for translation in compound_word.translations %}
 
-        <span class="hide" lang="ca" xml:lang="ca" title="{{ translation.ca | markdownify | remove: '<p>' | remove: '</p>' }}">{{ translation.ca | markdownify | remove: '<p>' | remove: '</p>' }}</span>
-        <span class="show" lang="en" xml:lang="en" title="{{ translation.en | markdownify | remove: '<p>' | remove: '</p>' }}">{{ translation.en | markdownify | remove: '<p>' | remove: '</p>' }}</span>
-        <span class="hide" lang="es" xml:lang="es" title="{{ translation.es | markdownify | remove: '<p>' | remove: '</p>' }}">{{ translation.es | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+        <span class="hide" lang="ca" xml:lang="ca" title="{{ translation.ca }}">{{ translation.ca | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+        <span class="show" lang="en" xml:lang="en" title="{{ translation.en }}">{{ translation.en | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+        <span class="hide" lang="es" xml:lang="es" title="{{ translation.es }}">{{ translation.es | markdownify | remove: '<p>' | remove: '</p>' }}</span>
 
         {% endfor %}
 
