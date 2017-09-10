@@ -8,8 +8,8 @@ jQuery(document).ready(function ($) {
   function scrollSpy() {
 
     $('body').scrollspy({
-      offset: 358.667 + 16,
-      target: '#navbarLessons'
+      offset: 335.6 + 16,
+      target: '#navbarNav'
     })
   };
 
