@@ -9,7 +9,7 @@ jQuery(document).ready(function ($) {
 
     $('body').scrollspy({
       offset: 335.6 + 16,
-      target: '#navbarNav'
+      target: '.navbar-nav-lessons'
     })
   };
 
@@ -103,8 +103,6 @@ jQuery(document).ready(function ($) {
   smoothReveal();
   smoothScroll();
   switchLanguage();
-
-  $('.switch-language-en').addClass('active');
 
 ////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////

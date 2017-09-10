@@ -7,7 +7,7 @@
     <span class="navbar-text hide" lang="ca" xml:lang="ca">Part 1 Lliçó:</span>
     <span class="navbar-text show" lang="en" xml:lang="en">Part 1 Lesson:</span>
     <span class="navbar-text hide" lang="es" xml:lang="es">Parte 1 Lección:</span>
-    <div class="navbar-nav" id="navbarPart1">
+    <div class="navbar-nav navbar-nav-lessons" id="navbarPart1">
 
       {% assign lessons = site.kanji | where: "part","1"| group_by: "lesson" %}
 
@@ -33,7 +33,7 @@
     <span class="navbar-text hide" lang="ca" xml:lang="ca">Part 2 Lliçó:</span>
     <span class="navbar-text show" lang="en" xml:lang="en">Part 2 Lesson:</span>
     <span class="navbar-text hide" lang="es" xml:lang="es">Parte 2 Lección:</span>
-    <div class="navbar-nav" id="navbarPart2">
+    <div class="navbar-nav navbar-nav-lessons" id="navbarPart2">
 
       {% assign lessons = site.kanji | where: "part","2"| group_by: "lesson" %}
 
@@ -71,7 +71,7 @@
     <span class="navbar-text hide" lang="es" xml:lang="es">Idioma:</span>
     <div class="navbar-nav" id="navbarLanguages">
       <a class="switch-language-ca nav-item nav-link" href="#">ca</a>
-      <a class="switch-language-en nav-item nav-link active" href="#">en <span class="sr-only">(current)</span></a>
+      <a class="switch-language-en nav-item nav-link active" href="#">en</a>
       <a class="switch-language-es nav-item nav-link" href="#">es</a>
     </div>
   </div>
