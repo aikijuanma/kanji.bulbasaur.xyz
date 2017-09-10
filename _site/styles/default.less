@@ -40,13 +40,15 @@ html {
 
     > .navbar {
       background-color: Magenta !important;
+      padding: 16px / 2 16px / 4;
 
       > a.navbar-brand {
         .notosansjapanese; .regular;
         color: fadeout(@white, 10%);
-        font-size: 16px;
-        margin: .16rem;
-        padding: .16rem .16rem;
+        font-size: 16px * 1.25;
+        line-height: (16px * 1.25) * 2;
+        margin: 0 16px / 2;
+        padding-top: 0; padding-bottom: 0;
         text-transform: uppercase;
 
         &:focus,
@@ -58,9 +60,8 @@ html {
           .semi_bold;
         }
 
-        > span {
-          .medium;
-          //color: Yellow;
+        > i {
+          .notosans; .medium; .normal;
         }
       }
 
@@ -68,6 +69,8 @@ html {
         border: none;
         border-radius: 0;
         cursor: pointer;
+        margin: 0 16px / 2;
+        padding: 0 16px / 2;
 
         &[aria-expanded="false"] {
 
@@ -97,16 +100,20 @@ html {
       }
 
       > div.navbar-collapse {
+        margin: 0 16px / 2;
 
         > span.navbar-text {
-          padding: .16rem .16rem;
-          margin: .16rem;
+          .western-sans; .regular;
+          font-size: 16px / 1.1;
+          line-height: 16px / 1.1;
+          padding: 16px / 2 0 16px / 2.5 0;
         }
 
         > div.navbar-nav {
           .clearfix;
           .show;
-          max-width: 290px; // 8 Lessons per row; then line-break
+          margin-left: 16px / 8;
+          max-width: 256px; // 8 Lessons per row; then line-break
 
           a.nav-item {
 
@@ -114,10 +121,12 @@ html {
               background-color: fadeout(@white, 90%);
               display: block;
               float: left;
-              font-size: 16px;
-              margin: .16rem;
-              max-width: 30px; min-width: 30px;
-              padding: .16rem .16rem;
+              font-size: 16px / 1.1;
+              line-height: (16px / 1.1) * 1.25;
+              margin: 16px / 8;
+              max-height: 28px; min-height: 28px;
+              max-width: 28px; min-width: 28px;
+              padding: 16px / 4;
               text-align: center;
             }
 
