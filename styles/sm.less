@@ -117,18 +117,19 @@
           height: auto; width: calc(~'100% - (16px)');
 
           > div {
+            display: flex;
 
             &:nth-child(1) {
               border-right: 1px solid @black;
-              flex: 0 0 calc(~'50% - (1px)'); // Safari doesn't do the calc on its own!
               font-size: 16px * 2.2;
               height: 16px * 5;
               line-height: (16px * 2) * 2.2;
+              flex: 1 1 1%;
             }
 
             &:nth-child(2) {
-              flex: 0 0 50%;
               height: 16px * 5;
+              flex: 1 1 1%;
             }
 
             &:nth-child(3) {
