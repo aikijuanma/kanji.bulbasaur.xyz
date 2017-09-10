@@ -1,9 +1,8 @@
 {% for item in lesson.items %}
 
 <div class="row">
-  <div class="col-12" data-number="{{ item.number }}">
-    {{ item.kanji }}
-    <a href="http://jisho.org/search/{{ item.kanji }}%20%23kanji" target="_blank" title="Jisho.org↗">({{ item.strokes }})</a>
+  <div class="col-12" data-number="{{ item.number }}" data-strokes="{{ item.strokes }}">
+    <a href="http://jisho.org/search/{{ item.kanji }}%20%23kanji" target="_blank" title="Jisho.org↗">{{ item.kanji }}</a>
   </div>
   <div class="col-12">
     <div class="float-left">
