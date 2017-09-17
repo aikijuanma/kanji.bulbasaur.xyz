@@ -51,7 +51,6 @@ html {
         padding-top: 0; padding-bottom: 0;
         text-transform: uppercase;
 
-        &:focus,
         &:hover {
           color: fadeout(@white, 10%);
         }
@@ -86,7 +85,6 @@ html {
           }
         }
 
-        &:focus,
         &:hover {
 
           > span {
@@ -141,8 +139,9 @@ html {
     > [data-lesson] {
       .clearfix;
       margin-bottom: 16px;
-      padding-left: 16px / 4; padding-right: 16px / 4;
       max-width: 16px * 63.5;
+      padding-left: 16px / 4; padding-right: 16px / 4;
+      position: relative;
 
       &:nth-child(odd) {
         // background-color: lighten(@black, 82.5%);
@@ -155,6 +154,28 @@ html {
         font-size: 16px * 1.5;
         line-height: (16px * 2) * 1.5;
         margin-left: 16px / 2;
+      }
+
+      > aside {
+        font-size: 16px;
+        line-height: 16px * 3;
+        margin: 0 8px + 4;
+        position: absolute;
+        top: 0; right: 0;
+
+        > a {
+          .show;
+          color: @black;
+          cursor: pointer;
+          float: left;
+          line-height: 16px * 3;
+          margin: 0 16px / 4;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
       }
 
       > .row {
@@ -210,7 +231,6 @@ html {
               vertical-align: middle;
             }
 
-            &:focus,
             &:hover {
               // .eastern-serif;
             }
@@ -218,7 +238,6 @@ html {
             > a {
               color: @black;
 
-              &:focus,
               &:hover {
                 color: inherit;
                 text-decoration: none;
@@ -272,7 +291,6 @@ html {
                     > a {
                       color: inherit;
 
-                      &:focus,
                       &:hover {
                         color: inherit;
                         text-decoration: none;
@@ -295,7 +313,6 @@ html {
                   font-size: 16px / 1.2;
                   line-height: 16px * 2;
 
-                  &:focus,
                   &:hover {
                     overflow: visible;
                     text-overflow: inherit;
