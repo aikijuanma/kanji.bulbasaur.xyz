@@ -2,7 +2,7 @@
 
 <div class="row">
   <div class="col-12" data-number="{{ item.number }}" data-strokes="{{ item.strokes }}">
-    <a href="http://jisho.org/search/{{ item.kanji }}%20%23kanji" target="_blank" title="Jisho.org↗">{{ item.kanji }}</a>
+    <a href="http://jisho.org/search/{{ item.kanji }}%20%23kanji" target="_blank" title="Jisho.org↗">{{ item.kanji }}<span class="oi oi-arrow-top"></span></a>
   </div>
   <div class="col-12">
     <div class="float-left">
@@ -18,7 +18,10 @@
       {% for compound_word in item.compound_words %}
 
       <li>
-        <ruby lang="ja" xml:lang="ja"><rb><a href="http://jisho.org/word/{{ compound_word.word | markdownify | remove: '<p>' | remove: '</p>' }}" target="_blank" title="Jisho.org↗">{{ compound_word.word | markdownify | remove: '<p>' | remove: '</p>' }}</a></rb><rt>（{{ compound_word.kana | markdownify | remove: '<p>' | remove: '</p>' }}）</rt></ruby>
+        <ruby lang="ja" xml:lang="ja">
+          <rb><a href="http://jisho.org/word/{{ compound_word.word | markdownify | remove: '<p>' | remove: '</p>' }}" target="_blank" title="Jisho.org↗">{{ compound_word.word | markdownify | remove: '<p>' | remove: '</p>' }}<span class="oi oi-arrow-top"></span></a></rb>
+          <rt>（{{ compound_word.kana | markdownify | remove: '<p>' | remove: '</p>' }}）</rt>
+        </ruby>
 
         {% for translation in compound_word.translations %}
 
