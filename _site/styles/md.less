@@ -15,6 +15,14 @@
 
         > .row {
 
+          &:nth-last-child(1),
+          &:nth-last-child(2) {
+
+            > div {
+              height: 16px * 15 !important;
+            }
+          }
+
           > div {
 
             &:nth-child(1) {
@@ -80,6 +88,14 @@
           margin: 16px / 2 16px / 2;
           height: auto; width: calc(~'50% - (16px)');
 
+          &:nth-last-child(1),
+          &:nth-last-child(2) {
+
+            > div {
+              height: 16px * 22 !important;
+            }
+          }
+
           > div {
 
             &:nth-child(1) {
@@ -119,6 +135,14 @@
 
         > .row {
           max-width: (16px * 21) - 16;
+
+          &:nth-last-child(1),
+          &:nth-last-child(2) {
+
+            > div {
+              height: 16px * 20 !important;
+            }
+          }
 
           > div {
 

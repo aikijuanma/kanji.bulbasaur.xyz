@@ -7,13 +7,31 @@
   <!-- Part 1 Lesson {{ lesson.name }} -->
   <div id="Part1Lesson{{ lesson.name }}" class="container-fluid" data-lesson="{{ lesson.name }}">
 
-    <aside>
-      <a href="{{ site.url }}/files/CardPart1Lesson{{ lesson.name }}.pdf" class="oi oi-brush" title="Kanji Cards"></a>
-      <a href="{{ site.url }}/files/DocPart1Lesson{{ lesson.name }}.pdf"class="oi oi-document" title="Explanation by Lourdes"></a>
-      <a onclick="jQuery.print('#Part1Lesson{{ lesson.name }}')" class="oi oi-print" title="Printable version"></a>
-    </aside>
-
     {% include item.html %}
+
+    <div class="row">
+      <div class="col-12">
+        <aside>
+          <a href="{{ site.url }}/files/CardPart1Lesson{{ lesson.name }}.pdf" class="oi oi-brush">
+            <span class="hide" lang="ca" xml:lang="ca">Kanji Cards</span>
+            <span class="show" lang="en" xml:lang="en">Kanji Cards</span>
+            <span class="hide" lang="es" xml:lang="es">Kanji Cards</span>
+          </a>
+        </aside>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <aside>
+          <a href="{{ site.url }}/files/DocPart1Lesson{{ lesson.name }}.pdf"class="oi oi-document">
+            <span class="hide" lang="ca" xml:lang="ca">Apunts de classe</span>
+            <span class="show" lang="en" xml:lang="en">Class notes</span>
+            <span class="hide" lang="es" xml:lang="es">Apuntes de clase</span>
+          </a>
+        </aside>
+      </div>
+    </div>
 
   </div>
 
@@ -26,13 +44,31 @@
   <!-- Part 2 Lesson {{ lesson.name }} -->
   <div id="Part2Lesson{{ lesson.name }}" class="container-fluid" data-lesson="{{ lesson.name }}">
 
-    <aside>
-      <a href="{{ site.url }}/files/CardPart2Lesson{{ lesson.name }}.pdf" class="oi oi-brush" title="Kanji Cards"></a>
-      <a href="{{ site.url }}/files/DocPart2Lesson{{ lesson.name }}.pdf"class="oi oi-document" title="Explanation by Lourdes"></a>
-      <a href="#" class="oi oi-print" title="Printable version"></a>
-    </aside>
-
     {% include item.html %}
+
+    <div class="row">
+      <div class="col-12">
+        <aside>
+          <a href="{{ site.url }}/files/CardPart2Lesson{{ lesson.name }}.pdf" class="oi oi-brush">
+            <span class="hide" lang="ca" xml:lang="ca">Kanji Cards</span>
+            <span class="show" lang="en" xml:lang="en">Kanji Cards</span>
+            <span class="hide" lang="es" xml:lang="es">Kanji Cards</span>
+          </a>
+        </aside>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <aside>
+          <a href="{{ site.url }}/files/DocPart2Lesson{{ lesson.name }}.pdf"class="oi oi-document">
+            <span class="hide" lang="ca" xml:lang="ca">Apunts de classe</span>
+            <span class="show" lang="en" xml:lang="en">Class notes</span>
+            <span class="hide" lang="es" xml:lang="es">Apuntes de clase</span>
+          </a>
+        </aside>
+      </div>
+    </div>
 
   </div>
 

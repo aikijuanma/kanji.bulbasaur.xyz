@@ -15,6 +15,24 @@
 
         > .row {
 
+          &:nth-last-child(1),
+          &:nth-last-child(2) {
+
+            > div {
+              height: 16px * 20 !important;
+
+              > aside {
+
+                > a {
+
+                  > span {
+                    font-size: 16px / 1.25;
+                  }
+                }
+              }
+            }
+          }
+
           > div {
 
             &:nth-child(1) {
@@ -75,6 +93,14 @@
 
         > .row {
 
+          &:nth-last-child(1),
+          &:nth-last-child(2) {
+
+            > div {
+              height: 16px * 22 !important;
+            }
+          }
+
           > div {
 
             &:nth-child(1) {
@@ -115,6 +141,15 @@
           float: left;
           margin: 16px / 2 16px / 2;
           height: auto; width: calc(~'100% - (16px)');
+
+          &:nth-last-child(1),
+          &:nth-last-child(2) {
+
+            > div {
+              border-right: none !important;
+              height: 16px * 13 !important;
+            }
+          }
 
           > div {
 

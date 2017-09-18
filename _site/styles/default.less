@@ -186,6 +186,60 @@ html {
         min-width: (16px * 18) - 16;
         height: auto; width: calc(~'100% - (16px)');
 
+        &:nth-last-child(2) {
+        }
+
+        &:nth-last-child(1) {
+        }
+
+        &:nth-last-child(1),
+        &:nth-last-child(2) {
+          border: 1px dashed @black;
+
+          > div {
+            height: 16px * 18 !important;
+
+            &:after,
+            &:before {
+              .hide !important;
+            }
+
+            > aside {
+              margin-top: -(16px * 3) / 2;
+
+              > a {
+                .show;
+                background-color: @black;
+                color: @white;
+                font-size: 16px;
+                line-height: 16px * 3;
+                height: 16px * 3; width: 16px * 3;
+                margin: 0 auto;
+                text-decoration: none;
+
+                &:hover {
+                  background-color: Magenta;
+                  color: @white;
+
+                  > span {
+                    color: Magenta;
+                  }
+                }
+
+                > span {
+                  .notosans; .bold;
+                  color: @black;
+                  font-size: 16px / 1.5;
+                  height: auto; width: (16px * 3) * 2;
+                  line-height: 16px;
+                  margin-top: 16px / 2; margin-left: -(16px * 3) / 2;
+                  text-align: center;
+                }
+              }
+            }
+          }
+        }
+
         > div {
           border-bottom: 1px solid @black;
           padding-left: 0; padding-right: 0;
