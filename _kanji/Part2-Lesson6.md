@@ -1,54 +1,42 @@
-<div class="page-header">
-  <h1>Lesson6 仕事 <small>Profession</small></h1>
-  <div class="wrapper">
-    <a class="print-link" onclick="jQuery.print('#part2-lesson6')" title="Printable version"><span class="glyphicon glyphicon-print"><span>印刷用バージョン</a>
-    <a class="card-link" href="漢字/葉書/Part2Lesson6.pdf" target="_blank" title="Download the Kanji Cards!"><span class="glyphicon glyphicon-file"><span>かんじカード</a>
-    <a class="extra-link" href="漢字/extra/２部６課.pdf" target="_blank" title="Detailed explanation by Lourdes"><span class="glyphicon glyphicon-paperclip"><span>クラスの説明</a>
-  </div>
-</div>
-<div class="table-responsive">
-  <table class="table table-bordered table-striped">
-    <thead>
-
-        <th>#
-        <th>Kanji
-        <th>Kun
-        <th>On
-        <th>Meaning
-        <th>Compound words w/ the kanji
-        <th>
-        <th>
-        <th><span class="glyphicon glyphicon-book" aria-hidden="true" title="View in Jisho">
-        <th><span class="glyphicon glyphicon-book" aria-hidden="true" title="View in Tangorin">
-
-    </thead>
-
-
+---
+part: 2
+lesson: 6
 number: 161
 
-仕
+kanji: 仕
+strokes: 5
 
+kunyomi: つかーえる
+onyomi: シ
 
-つかーえる
+meaning:
+  translations:
+    - ca: つかえる (servir)
+      en: つかえる (serve)
+      es: つかえる (servir)
 
+compound_words:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
 
-シ
-
-
-つかえる (serve)
-
-
-仕事<br>
+仕事
 仕方がない
 
-
-しごと<br>
+しごと
 しかたがない
 
-
-job<br>
-there is no choice / it can't be helped
-
+job
+there is no choice
 
 
 
@@ -59,35 +47,61 @@ there is no choice / it can't be helped
 
 
 
+part: 2
+lesson: 6
 number: 162
 
+kanji: 事
+strokes: 8
+
+kunyomi: こと
+onyomi: ジ
+
+meaning:
+  translations:
+    - ca: こと (cosa)
+      en: こと (matter)
+      es: こと (cosa)
+
+compound_words:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+
+火事
+用事
+大事な
 事
 
-
+かじ
+ようじ
+だいじな
 こと
 
-
-ジ
-
-
-こと (matter)
-
-
-火事<br>
-用事<br>
-大事な<br>
-事
-
-
-かじ<br>
-ようじ<br>
-だいじな<br>
-こと
-
-
-burning<br>
-tasks<br>
-important<br>
+burning
+business
+important
 matter
 
 
@@ -103,33 +117,52 @@ matter
 
 
 
-
+part: 2
+lesson: 6
 number: 163
 
+kanji: 銀
+strokes: 14
+
+kunyomi:
+onyomi: ギン
+
+meaning:
+  translations:
+    - ca: ぎん (argent)
+      en: ぎん (silver)
+      es: ぎん (plata)
+
+compound_words:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+
+銀行
 銀
-
-
-
-
-
-ギン
-
-
-ぎん (silver)
-
-
-銀行<br>
-銀<br>
 銀座
 
-
-ぎんこう<br>
-ぎん<br>
+ぎんこう
+ぎん
 ぎんざ
 
-
-bank<br>
-silver<br>
+bank
+silver
 Ginza
 
 
@@ -143,36 +176,61 @@ Ginza
 
 
 
-
+part: 2
+lesson: 6
 number: 164
 
-員
+kanji: 員
+strokes: 10
 
+kunyomi:
+onyomi: イン
 
+meaning:
+  translations:
+    - ca: なかま (membre)
+      en: なかま (member)
+      es: なかま (miembro)
 
+compound_words:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
 
-
-イン
-
-
-なかま (member)
-
-
-会社員<br>
-銀行員<br>
-店員<br>
+会社員
+銀行員
+店員
 会員
 
-
-かいしゃいん<br>
-ぎんこういん<br>
-てんいん<br>
+かいしゃいん
+ぎんこういん
+てんいん
 かいいん
 
-
-employee of a company<br>
-bank clerk<br>
-shop assistant<br>
+employee of a company
+bank clerk
+clerk
 membership
 
 
@@ -188,33 +246,52 @@ membership
 
 
 
-
+part: 2
+lesson: 6
 number: 165
 
-医
+kanji: 医
+strokes: 7
 
+kunyomi:
+onyomi: イ
 
+meaning:
+  translations:
+    - ca: いがく (medicina)
+      en: いがく (medicine)
+      es: いがく (medicina)
 
+compound_words:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
 
-
-イ
-
-
-いがく (medicine)
-
-
-医者<br>
-医学<br>
+医者
+医学
 医院
 
-
-いしゃ<br>
-いがく<br>
+いしゃ
+いがく
 いいん
 
-
-doctor<br>
-medical science<br>
+doctor
+medical science
 doctor's office
 
 
@@ -228,36 +305,61 @@ doctor's office
 
 
 
-
+part: 2
+lesson: 6
 number: 166
 
+kanji: 者
+strokes: 8
+
+kunyomi: もの
+onyomi: シャ
+
+meaning:
+  translations:
+    - ca: ひと (persona)
+      en: ひと (person)
+      es: ひと (persona)
+
+compound_words:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+
 者
-
-
-もの
-
-
-シャ
-
-
-ひと (person)
-
-
-者<br>
-歯医者<br>
-学者<br>
+歯医者
+学者
 作者
 
-
-もの<br>
-はいしゃ<br>
-がくしゃ<br>
+もの
+はいしゃ
+がくしゃ
 さくしゃ
 
-
-person<br>
-dentist<br>
-scholar<br>
+person
+dentist
+scholar
 author
 
 
@@ -273,30 +375,43 @@ author
 
 
 
-
+part: 2
+lesson: 6
 number: 167
 
-働
+kanji: 働
+strokes: 13
 
+kunyomi: はたらーく
+onyomi: ドウ
 
-はたらーく
+meaning:
+  translations:
+    - ca: はたらく (treballar)
+      en: はたらく (work)
+      es: はたらく (trabajar)
 
+compound_words:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
 
-ドウ
+働く
+労働者
 
-
-はたらく (work)
-
-
-働く<br>
-労働者<br>
-
-
-はたらく<br>
+はたらく
 ろうどうしゃ
 
-
-to work<br>
+to work
 laborer; worker
 
 
@@ -308,36 +423,61 @@ laborer; worker
 
 
 
-
+part: 2
+lesson: 6
 number: 168
 
-屋
+kanji: 屋
+strokes: 9
 
+kunyomi: や
+onyomi: オク
 
-や
+meaning:
+  translations:
+    - ca: やね (sostre)
+      en: やね (roof)
+      es: やね (techo)
 
+compound_words:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
 
-オク
-
-
-やね (roof)
-
-
-本屋<br>
-屋上<br>
-八百屋<br>
+本屋
+屋上
+八百屋
 部屋
 
-
-ほんや<br>
-おくじょう<br>
-やおや<br>
+ほんや
+おくじょう
+やおや
 へや
 
-
-bookstore<br>
-rooftop<br>
-greengrocer<br>
+bookstore
+roof; housetop
+grocery
 room
 
 
@@ -353,35 +493,53 @@ room
 
 
 
-
+part: 2
+lesson: 6
 number: 169
 
-産
+kanji: 産
+strokes: 11
 
+kunyomi: うーむ
+onyomi: サン
 
-うーむ
+meaning:
+  translations:
+    - ca: つくる (produïr)
+      en: つくる (produce)
+      es: つくる (producir)
 
+compound_words:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
 
-サン
-
-
-つくる (produce)
-
-
-産む<br>
-生産する<br>
+産む
+生産する
 財産
 
-
-うむ<br>
-せいさんする<br>
+うむ
+せいさんする
 ざいさん
 
-
-to give birth<br>
-to produce<br>
-property; fortune; assets
-
+to give birth
+to produce
+fortune
 
 
 
@@ -394,50 +552,60 @@ property; fortune; assets
 
 
 
+part: 2
+lesson: 6
 number: 170
 
-業
+kanji: 業
+strokes: 13
 
+kunyomi:
+onyomi: ギョウ
 
+meaning:
+  translations:
+    - ca:
+      en: わぎ (deed)
+      es:
 
+compound_words:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
+  - word:
+    kana:
+    translations:
+    - ca:
+      en:
+      es:
 
-
-ギョウ
-
-
-わぎ (deed)
-
-
-産業<br>
-工業<br>
-授業<br>
+産業
+工業
+授業
 本日休業
 
-
-さんぎょう<br>
-こうぎょう<br>
-じゅぎょう<br>
+さんぎょう
+こうぎょう
+じゅぎょう
 ほんじつきゅうぎょう
 
-
-industry<br>
-(manufacturing) industry<br>
-class; lesson<br>
+industry
+manufacture
+class; lesson
 closed today
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </table>
-</div>
+---

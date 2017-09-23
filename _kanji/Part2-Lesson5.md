@@ -1,417 +1,353 @@
-<div class="page-header">
-  <h1>Lesson5 趣味 <small>Hobby</small></h1>
-  <div class="wrapper">
-    <a class="print-link" onclick="jQuery.print('#part2-lesson5')" title="Printable version"><span class="glyphicon glyphicon-print"><span>印刷用バージョン</a>
-    <a class="card-link" href="漢字/葉書/Part2Lesson5.pdf" target="_blank" title="Download the Kanji Cards!"><span class="glyphicon glyphicon-file"><span>かんじカード</a>
-    <a class="extra-link" href="漢字/extra/２部５課.pdf" target="_blank" title="Detailed explanation by Lourdes"><span class="glyphicon glyphicon-paperclip"><span>クラスの説明</a>
-  </div>
-</div>
-<div class="table-responsive">
-  <table class="table table-bordered table-striped">
-    <thead>
-
-        <th>#
-        <th>Kanji
-        <th>Kun
-        <th>On
-        <th>Meaning
-        <th>Compound words w/ the kanji
-        <th>
-        <th>
-        <th><span class="glyphicon glyphicon-book" aria-hidden="true" title="View in Jisho">
-        <th><span class="glyphicon glyphicon-book" aria-hidden="true" title="View in Tangorin">
-
-    </thead>
-
-
+---
+part: 2
+lesson: 5
 number: 151
 
-映
+kanji: 映
+strokes: 9
 
+kunyomi: うつーす
+onyomi: エイ
 
-うつーす
+meaning:
+  translations:
+    - ca: うつす (reflectir)
+      en: うつす (reflect)
+      es: うつす (reflejar)
 
-
-エイ
-
-
-うつす (reflect)
-
-
-映す<br>
-映画<br>
-映画館
-
-
-うつす<br>
-えいが<br>
-えいがかん
-
-
-to reflect; to project<br>
-movie<br>
-movie theater
-
-
-
-
-
-
-
-
-
-
-
-
-
+compound_words:
+  - word: 映す
+    kana: うつす
+    translations:
+    - ca: reflectir
+      en: to reflect
+      es: reflejar
+  - word: 映画
+    kana: えいが
+    translations:
+    - ca: pel·lícula
+      en: movie
+      es: película
+  - word: 映画館
+    kana: えいがかん
+    translations:
+    - ca: cinema
+      en: movie theater
+      es: cine
+---
+---
+part: 2
+lesson: 5
 number: 152
 
-画
+kanji: 画
+strokes: 8
+
+kunyomi:
+onyomi: ガ／カク
 
 
+meaning:
+  translations:
+    - ca: え (imatge)
+      en: え (picture)
+      es: え (imagen)
 
-
-
-ガ／カク
-
-
-え (picture)
-
-
-計画<br>
-画家<br>
-日本画
-
-
-けいかく<br>
-がか<br>
-にほんが
-
-
-plan<br>
-painter<br>
-Japanese painting
-
-
-
-
-
-
-
-
-
-
-
-
-
+compound_words:
+  - word: 計画
+    kana: けいかく
+    translations:
+    - ca: pla
+      en: plan
+      es: plan
+  - word: 画家
+    kana: がか
+    translations:
+    - ca: pintor pintora
+      en: painter
+      es: pintor, ra
+  - word: 日本画
+    kana: にほんが
+    translations:
+    - ca: pintura japonesa
+      en: Japanese painting
+      es: pintura japonesa
+---
+---
+part: 2
+lesson: 5
 number: 153
 
-音
+kanji: 音
+strokes: 9
 
+kunyomi: おと
+onyomi: オン
 
-おと
+meaning:
+  translations:
+    - ca: おと (so)
+      en: おと (sound)
+      es: おと (sonido)
 
-
-オン
-
-
-おと (sound)
-
-
-音<br>
-発音<br>
-高音
-
-
-おと<br>
-はつおん<br>
-こうおん
-
-
-sound<br>
-pronunciation<br>
-high note
-
-
-
-
-
-
-
-
-
-
-
-
-
+compound_words:
+  - word: 音
+    kana: おと
+    translations:
+    - ca: so
+      en: sound
+      es: sonido
+  - word: 発音
+    kana: はつおん
+    translations:
+    - ca: pronunciació
+      en: pronunciation
+      es: pronunciación
+  - word: 高音
+    kana: こうおん
+    translations:
+    - ca: to agut
+      en: high note
+      es: tono agudo
+---
+---
+part: 2
+lesson: 5
 number: 154
 
-楽
+kanji: 楽
+strokes: 13
 
+kunyomi: たのーしい
+onyomi: ガク<br>ラク
 
-たのーしい
+meaning:
+  translations:
+    - ca: たのしい (agradable)<br>かんたん (fàcil)
+      en: たのしい (enjoyable)<br>かんたん (easy)
+      es: たのしい (agradable)<br>かんたん (fácil)
 
-
-ガク<br>
-ラク
-
-
-たのしい (enjoyable)<br>
-かんたん (easy)
-
-
-楽しい<br>
-音楽<br>
-楽な
-
-
-たのしい<br>
-おんがく<br>
-らくな
-
-
-enjoyable<br>
-music<br>
-comfort; ease
-
-
-
-
-
-
-
-
-
-
-
-
-
+compound_words:
+  - word: 楽しい
+    kana: たのしい
+    translations:
+    - ca: divertit -ida
+      en: enjoyable
+      es: divertido, da
+  - word: 音楽
+    kana: おんがく
+    translations:
+    - ca: música
+      en: music
+      es: música
+  - word: 楽な
+    kana: らくな
+    translations:
+    - ca: fàcil
+      en: easy
+      es: fácil
+---
+---
+part: 2
+lesson: 5
 number: 155
 
-歌
+kanji: 歌
+strokes: 14
 
+kunyomi: うた<br>うたーう
+onyomi: カ
 
-うた<br>
-うたーう
+meaning:
+  translations:
+    - ca: うた (cançó)
+      en: うた (song)
+      es: うた (canción)
 
-
-カ
-
-
-うた (song)
-
-
-歌う<br>
-歌手
-
-
-うたう<br>
-かしゅ
-
-
-to sing<br>
-singer
-
-
-
-
-
-
-
-
-
-
-
+compound_words:
+  - word: 歌う
+    kana: うたう
+    translations:
+    - ca: cantar
+      en: to sing
+      es: cantar
+  - word: 歌手
+    kana: かしゅ
+    translations:
+    - ca: cantant
+      en: singer
+      es: cantante
+---
+---
+part: 2
+lesson: 5
 number: 156
 
-写
+kanji: 写
+strokes: 5
 
+kunyomi: うつーす
+onyomi: シャ
 
-うつーす
+meaning:
+  translations:
+    - ca: うつす (copiar)
+      en: うつす (copy)
+      es: うつす (copiar)
 
-
-シャ
-
-
-うつす (copy)
-
-
-写真<br>
-写す
-
-
-しゃしん<br>
-うつす
-
-
-a photograph<br>
-to copy
-
-
-
-
-
-
-
-
-
-
-
+compound_words:
+  - word: 写真
+    kana: しゃしん
+    translations:
+    - ca: una fotografia
+      en: a photograph
+      es: una fotografía
+  - word: 写す
+    kana: うつす
+    translations:
+    - ca: copiar
+      en: to copy
+      es: copiar
+---
+---
+part: 2
+lesson: 5
 number: 157
 
-真
+kanji: 真
+strokes: 10
 
+kunyomi: ま／まっー
+onyomi: シン
 
-ま／まっー
+meaning:
+  translations:
+    - ca: ほんとう (veritat)
+      en: ほんとう (truth)
+      es: ほんとう (verdad)
 
-
-シン
-
-
-ほんとう (truth)
-
-
-真ん中<br>
-真っ白<br>
-真実
-
-
-まんなか<br>
-まっしろ<br>
-しんじつ
-
-
-midmost<br>
-pure white<br>
-truth
-
-
-
-
-
-
-
-
-
-
-
-
-
+compound_words:
+  - word: 真ん中
+    kana: まんなか
+    translations:
+    - ca: el mig
+      en: midmost
+      es: el medio
+  - word: 真っ白
+    kana: まっしろ
+    translations:
+    - ca: blanc pur
+      en: pure white
+      es: blanco puro
+  - word: 真実
+    kana: しんじつ
+    translations:
+    - ca: veritat
+      en: truth
+      es: verdad
+---
+---
+part: 2
+lesson: 5
 number: 158
 
-旅
+kanji: 旅
+strokes: 10
 
+kunyomi: たび
+onyomi: リョ
 
-たび
+meaning:
+  translations:
+    - ca: たび (viatge)
+      en: たび (trip)
+      es: たび (viaje)
 
-
-リョ
-
-
-たび (trip)
-
-
-旅行する<br>
-旅館<br>
-旅
-
-
-りょこうする<br>
-りょかん<br>
-たび
-
-
-to take a trip<br>
-Japanese-style hotel<br>
-trip
-
-
-
-
-
-
-
-
-
-
-
-
-
+compound_words:
+  - word: 旅行する
+    kana: りょこうする
+    translations:
+    - ca: viatjar
+      en: to take a trip
+      es: viajar
+  - word: 旅館
+    kana: りょかん
+    translations:
+    - ca: hotel d'estil japonès
+      en: Japanese-style hotel
+      es: hotel de estilo japonés
+  - word: 旅
+    kana: たび
+    translations:
+    - ca: viatge
+      en: trip
+      es: viajar
+---
+---
+part: 2
+lesson: 5
 number: 159
 
-世
+kanji: 世
+strokes: 5
 
+kunyomi: よ
+onyomi: セ／セイ
 
-よ
+meaning:
+  translations:
+    - ca: せかい (món)<br>せたい (generació)
+      en: せかい (world)<br>せたい (generation)
+      es: せかい (mundo)<br>せたい (generación)
 
-
-セ／セイ
-
-
-せかい (world)<br>
-せたい (generation)
-
-
-世話をする<br>
-世の中<br>
-２１世紀
-
-
-せわをする<br>
-よのなか<br>
-にじゅういっせいき
-
-
-to take care of<br>
-society; the world; the times<br>
-21st century
-
-
-
-
-
-
-
-
-
-
-
-
-
+compound_words:
+  - word: 世話をする
+    kana: せわをする
+    translations:
+    - ca: tenir cura de
+      en: to take care of
+      es: cuidar de
+  - word: 世の中
+    kana: よのなか
+    translations:
+    - ca: món; societat
+      en: world; society
+      es: mundo; sociedad
+  - word: ２１世紀
+    kana: にじゅういっせいき
+    translations:
+    - ca: segle XXI
+      en: 21st century
+      es: siglo XXI
+---
+---
+part: 2
+lesson: 5
 number: 160
 
-界
+kanji: 界
+strokes: 9
 
+kunyomi:
+onyomi: カイ
 
+meaning:
+  translations:
+    - ca: さかいめ (límit)
+      en: さかいめ (boundary)
+      es: さかいめ (límite)
 
-
-
-カイ
-
-
-さかいめ (boundary)
-
-
-世界<br>
-政界
-
-
-せかい<br>
-せいかい
-
-
-the world; society; the universe<br>
-political world
-
-
-
-
-
-
-
-
-
-
-
-  </table>
-</div>
+compound_words:
+  - word: 世界
+    kana: せかい
+    translations:
+    - ca: món
+      en: world
+      es: mundo
+  - word: 政界
+    kana: せいかい
+    translations:
+    - ca: mòn polític
+      en: political world
+      es: mundo político
+---
