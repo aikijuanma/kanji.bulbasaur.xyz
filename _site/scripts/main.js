@@ -38,16 +38,7 @@ jQuery(document).ready(function ($) {
           event.preventDefault();
           $('html, body').animate({
             scrollTop: target.offset().top - $('.navbar').outerHeight()
-          }, 1000, function() {
-            var $target = $(target);
-            $target.focus();
-            if ($target.is(":focus")) {
-              return false;
-            } else {
-              $target.attr('tabindex','-1');
-              $target.focus();
-            };
-          });
+          }, 1000);
         }
       }
     });

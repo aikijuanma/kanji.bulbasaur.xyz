@@ -232,7 +232,7 @@ html {
                   font-size: 16px / 1.5;
                   height: auto; width: (16px * 3) * 2;
                   line-height: 16px;
-                  margin-top: 16px / 2; margin-left: -(16px * 3) / 2;
+                  padding-top: 16px / 2; margin-left: -(16px * 3) / 2;
                   text-align: center;
                 }
               }
@@ -249,7 +249,7 @@ html {
           }
 
           &:nth-child(1) {
-            .eastern-sans; .extra_light;
+            .sawarabimincho; .regular;
             .vertical-align-flexbox;
             font-size: 16px * 2.2;
             height: 16px * 5; width: 100%;
@@ -286,11 +286,11 @@ html {
             }
 
             &:hover {
-              // .eastern-serif;
               color: Magenta;
             }
 
             > a {
+              .transition;
               color: @black;
               position: relative;
 
@@ -364,6 +364,7 @@ html {
                     line-height: 16px * 2;
 
                     > a {
+                      .transition;
                       color: inherit;
                       position: relative;
 
