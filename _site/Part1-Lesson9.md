@@ -1,6 +1,7 @@
 
-
-
+---
+part: 1
+lesson: 9
 number: 81
 行
 
@@ -27,25 +28,9 @@ number: 81
 さんぎょうめ
 
 
-to go<br>
-how to get to Place<br>
-bank<br>
-the third line (in a text)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 9
 number: 82
 来
 
@@ -71,25 +56,10 @@ number: 82
 しょうらい
 
 
-to come<br>
-next year<br>
-next week<br>
-future (usually near)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 9
 number: 83
 食
 
@@ -114,25 +84,9 @@ number: 83
 しょくどう<br>
 
 
-to eat<br>
-to eat out<br>
-grocery<br>
-dining hall<br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 9
 number: 84
 見
 
@@ -157,25 +111,9 @@ number: 84
 いけん
 
 
-to see; to look at<br>
-to show<br>
-educational visit<br>
-opinion
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 9
 number: 85
 入
 
@@ -202,25 +140,9 @@ number: 85
 にゅうがくする
 
 
-to enter<br>
-to put in<br>
-entrance<br>
-to matriculate
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 9
 number: 86
 出
 
@@ -247,24 +169,9 @@ number: 86
 しゅっせきする
 
 
-to go out; to come out<br>
-exit<br>
-to attend
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 9
 number: 87
 立
 
@@ -285,25 +192,11 @@ number: 87
 たつ<br>
 りっしょくパーティー<br>
 こくりつだいがく<br>
-<br>
-
-
-to stand<br>
-buffet party<br>
-national university<br>
 
 
 
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 9
 number: 88
 書
 
@@ -329,25 +222,9 @@ number: 88
 じしょ
 
 
-to write<br>
-reading books<br>
-draft<br>
-dictionary
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 9
 number: 89
 言
 
@@ -369,22 +246,9 @@ number: 89
 でんごん
 
 
-to say<br>
-language<br>
-message
 
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 9
 number: 90
 飲
 
@@ -405,23 +269,4 @@ number: 90
 のむ<br>
 のみもの<br>
 いんしょくてん
-
-
-to drink<br>
-beverage<br>
-restaurants
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </table>
-</div>
+---

@@ -1,402 +1,348 @@
-<div class="page-header">
-  <h1>Lesson8 季節 <small>Seasons</small></h1>
-  <div class="wrapper">
-    <a class="print-link" onclick="jQuery.print('#part2-lesson8')" title="Printable version"><span class="glyphicon glyphicon-print"><span>印刷用バージョン</a>
-    <a class="card-link" href="漢字/葉書/Part2Lesson8.pdf" target="_blank" title="Download the Kanji Cards!"><span class="glyphicon glyphicon-file"><span>かんじカード</a>
-    <a class="extra-link" href="漢字/extra/２部８課.pdf" target="_blank" title="Detailed explanation by Lourdes"><span class="glyphicon glyphicon-paperclip"><span>クラスの説明</a>
-  </div>
-</div>
-<div class="table-responsive">
-  <table class="table table-bordered table-striped">
-    <thead>
-
-        <th>#
-        <th>Kanji
-        <th>Kun
-        <th>On
-        <th>Meaning
-        <th>Compound words w/ the kanji
-        <th>
-        <th>
-        <th><span class="glyphicon glyphicon-book" aria-hidden="true" title="View in Jisho">
-        <th><span class="glyphicon glyphicon-book" aria-hidden="true" title="View in Tangorin">
-
-    </thead>
-
-
+---
+part: 2
+lesson: 8
 number: 181
 
-季
+kanji: 季
+strokes: 8
 
+kunyomi:
+onyomi: キ
 
+meaning:
+  translations:
+    - ca: きせつ (estació)
+      en: きせつ (season)
+      es: きせつ (estación)
 
+compound_words:
+  - word: 四季
+    kana: し・き
+    translations:
+    - ca: quatre estacions
+      en: four seasons
+      es: cuatro estaciones
+---
 
-キ
-
-
-きせつ (season)
-
-
-四季
-
-
-しき
-
-
-four seasons
-
-
-
-
-
-
-
-
-
+---
+part: 2
+lesson: 8
 number: 182
 
-節
+kanji: 節
+strokes: 13
 
+kunyomi: ふし
+onyomi: セツ
 
-ふし
+meaning:
+  translations:
+    - ca: くぎり (juntura)
+      en: くぎり (joint)
+      es: くぎり (juntura)
 
+compound_words:
+  - word: 季節
+    kana: き・せつ
+    translations:
+    - ca: estació; temporada
+      en: season
+      es: estación; temporada
+  - word: 節分
+    kana: せつ・ぶん
+    translations:
+    - ca: vacances de final d'hivern
+      en: holiday for end of winter
+      es: vacaciones de final de invierno
+---
 
-セツ
-
-
-くぎり (joint)
-
-
-季節<br>
-節分
-
-
-きせつ<br>
-せつぶん
-
-
-season<br>
-the traditional end of winter
-
-
-
-
-
-
-
-
-
-
-
+---
+part: 2
+lesson: 8
 number: 183
 
-春
+kanji: 春
+strokes: 9
 
+kunyomi: はる
+onyomi: シュン
 
-はる
+meaning:
+  translations:
+    - ca: はる (primavera)
+      en: はる (spring)
+      es: はる (primavera)
 
+compound_words:
+  - word: 春
+    kana: はる
+    translations:
+    - ca: primavera
+      en: spring
+      es: primavera
+  - word: 青春
+    kana: せい・しゅん
+    translations:
+    - ca: joventut
+      en: youth
+      es: juventud
+---
 
-シュン
-
-
-はる (spring)
-
-
-春<br>
-青春
-
-
-はる<br>
-せいしゅん
-
-
-spring<br>
-youth
-
-
-
-
-
-
-
-
-
-
-
+---
+part: 2
+lesson: 8
 number: 184
 
-夏
+kanji: 夏
+strokes: 10
 
+kunyomi: なつ
+onyomi: カ
 
-なつ
+meaning:
+  translations:
+    - ca: なつ (estiu)
+      en: なつ (summer)
+      es: なつ (verano)
 
+compound_words:
+  - word: 夏
+    kana: なつ
+    translations:
+    - ca: estiu
+      en: summer
+      es: verano
+  - word: 夏休み
+    kana: なつ・やす・み
+    translations:
+    - ca: vacances d'estiu
+      en: summer holidays
+      es: vacaciones de verano
+  - word: 夏祭り
+    kana: なつ・まつ・り
+    translations:
+    - ca: festival d'estiu
+      en: summer festival
+      es: festival de verano
+  - word: 夏服
+    kana: なつ・ふく
+    translations:
+    - ca: roba d'estiu
+      en: summer clothes
+      es: ropa de verano
+---
 
-カ
-
-
-なつ (summer)
-
-
-夏<br>
-夏休み<br>
-夏まつり<br>
-夏服
-
-
-なつ<br>
-なつやすみ<br>
-なつまつり<br>
-なつふく
-
-
-summer<br>
-summer holidays<br>
-summer festival<br>
-summer clothing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
+part: 2
+lesson: 8
 number: 185
 
-秋
+kanji: 秋
+strokes: 9
 
+kunyomi: あき
+onyomi: シュウ
 
-あき
+meaning:
+  translations:
+    - ca: あき (tardor)
+      en: あき (autumn)
+      es: あき (otoño)
 
+compound_words:
+  - word: 秋
+    kana: あき
+    translations:
+    - ca: tardor
+      en: autumn
+      es: otoño
+  - word: 秋田県
+    kana: あき・た・けん
+    translations:
+    - ca: Akita, prefectura de
+      en: Akita prefecture
+      es: Akita, prefectura de
+  - word: 秋分の日
+    kana: しゅう・ぶん・の・ひ
+    translations:
+    - ca: dia de l'equinocci de tardor
+      en: autumnal equinox day
+      es: día del equinoccio de otoño
+---
 
-シュウ
-
-
-あき (autumn)
-
-
-秋<br>
-秋田県<br>
-秋分の日
-
-
-あき<br>
-あきたけん<br>
-しゅうぶんのひ
-
-
-autumn<br>
-Akita Prefecture<br>
-Autumnal Equinox Day
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
+part: 2
+lesson: 8
 number: 186
 
-冬
+kanji: 冬
+strokes: 5
 
+kunyomi: ふゆ
+onyomi: トウ
 
-ふゆ
+meaning:
+  translations:
+    - ca: ふゆ (hivern)
+      en: ふゆ (winter)
+      es: ふゆ (invierno)
 
+compound_words:
+  - word: 冬
+    kana: ふゆ
+    translations:
+    - ca: hivern
+      en: winter
+      es: invierno
+  - word: 冬休み
+    kana: ふゆ・やす・み
+    translations:
+    - ca: vacances d'hivern
+      en: winter holidays
+      es: vacaciones de invierno
+  - word: 春夏秋冬
+    kana: しゅん・か・しゅう・とう
+    translations:
+    - ca: primavera, estiu, tardor, hivern
+      en: spring, summer, autumn, winter
+      es: primavera, verano, otoño, invierno
+---
 
-トウ
-
-
-ふゆ (winter)
-
-
-冬<br>
-冬休み<br>
-春夏秋冬
-
-
-ふゆ<br>
-ふゆやすみ<br>
-しゅんかしゅうとう
-
-
-winter<br>
-winter holidays<br>
-spring, summer, autumn, winter
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
+part: 2
+lesson: 8
 number: 187
 
-暑
+kanji: 暑
+strokes: 12
 
+kunyomi: あつーい
+onyomi: ショ
 
-あつーい
+meaning:
+  translations:
+    - ca: あつい (calent)
+      en: あつい (hot)
+      es: あつい (caliente)
 
+compound_words:
+  - word: 暑い
+    kana: あつ・い
+    translations:
+    - ca: calent -a
+      en: hot
+      es: caliente
+  - word: 残暑
+    kana: ざん・しょ
+    translations:
+    - ca: calor a finals d'estiu
+      en: late-summer heat
+      es: calor a finales de verano
+---
 
-ショ
-
-
-あつい (hot)
-
-
-暑い<br>
-残暑
-
-
-あつい<br>
-ざんしょ
-
-
-hot (weather, &c.)<br>
-late-summer heat
-
-
-
-
-
-
-
-
-
-
-
+---
+part: 2
+lesson: 8
 number: 188
 
-寒
+kanji: 寒
+strokes: 12
 
+kunyomi: さむーい
+onyomi: カン
 
-さむーい
+meaning:
+  translations:
+    - ca: さむい (fred)
+      en: さむい (cold)
+      es: さむい (frío)
 
+compound_words:
+  - word: 寒い
+    kana: さむ・い
+    translations:
+    - ca: fred -a
+      en: cold
+      es: frío, a
+  - word: 寒波
+    kana: かん・ぱ
+    translations:
+    - ca: ona freda
+      en: cold wave
+      es: ola de frío
+---
 
-カン
-
-
-さむい (cold)
-
-
-寒い<br>
-寒波
-
-
-さむい<br>
-かんぱ
-
-
-cold (weather, &c.)<br>
-cold wave
-
-
-
-
-
-
-
-
-
-
-
+---
+part: 2
+lesson: 8
 number: 189
 
-暖
+kanji: 暖
+strokes: 13
 
+kunyomi: あたたーかい
+onyomi: ダン
 
-あたたーかい
+meaning:
+  translations:
+    - ca: あたたかい (càlid)
+      en: あたたかい (warm)
+      es: あたたかい (cálido)
 
+compound_words:
+  - word: 暖かい
+    kana: あたた・かい
+    translations:
+    - ca: càlid -a
+      en: warm
+      es: cálido, da
+  - word: 暖冬
+    kana: だん・とう
+    translations:
+    - ca: hivern càlid
+      en: warm winter
+      es: invierno cálido
+  - word: 暖房
+    kana: だん・ぼう
+    translations:
+    - ca: calefacció
+      en: indoor heating
+      es: calefacción
+  - word: 温暖化
+    kana: おん・だん・か
+    translations:
+    - ca: escalfament (global)
+      en: (global) warming
+      es: calentamiento (global)
+---
 
-ダン
-
-
-あたたかい (warm)
-
-
-暖かい<br>
-暖冬<br>
-暖房<br>
-温暖化
-
-
-あたたかい<br>
-だんとう<br>
-だんぼう<br>
-おんだんか
-
-
-warm<br>
-warm winter<br>
-indoor heating<br>
-warming
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
+part: 2
+lesson: 8
 number: 190
 
-涼
+kanji: 涼
+strokes: 11
 
+kunyomi: すずーしい
+onyomi: リョウ
 
-すずーしい
+meaning:
+  translations:
+    - ca: すずしい (fresc)
+      en: すずしい (cool)
+      es: すずしい (fresco)
 
-
-リョウ
-
-
-すずしい (cool)
-
-
-涼しい<br>
-涼風
-
-
-すずしい<br>
-りょうふう
-
-
-cool; refreshing<br>
-cool breeze
-
-
-
-
-
-
-
-
-
-
-
-  </table>
-</div>
+compound_words:
+  - word: 涼しい
+    kana: すず・しい
+    translations:
+    - ca: fresc -a
+      en: cool
+      es: fresco, ca
+  - word: 涼風
+    kana: りょう・ふう
+    translations:
+    - ca: brisa fresca
+      en: cool breeze
+      es: brisa fresca

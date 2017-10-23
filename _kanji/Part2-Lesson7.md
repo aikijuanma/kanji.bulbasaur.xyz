@@ -1,452 +1,403 @@
-<div class="page-header">
-  <h1>Lesson7 自然 <small>Nature</small></h1>
-  <div class="wrapper">
-    <a class="print-link" onclick="jQuery.print('#part2-lesson7')" title="Printable version"><span class="glyphicon glyphicon-print"><span>印刷用バージョン</a>
-    <a class="card-link" href="漢字/葉書/Part2Lesson7.pdf" target="_blank" title="Download the Kanji Cards!"><span class="glyphicon glyphicon-file"><span>かんじカード</a>
-    <a class="extra-link" href="漢字/extra/２部７課.pdf" target="_blank" title="Detailed explanation by Lourdes"><span class="glyphicon glyphicon-paperclip"><span>クラスの説明</a>
-  </div>
-</div>
-<div class="table-responsive">
-  <table class="table table-bordered table-striped">
-    <thead>
-
-        <th>#
-        <th>Kanji
-        <th>Kun
-        <th>On
-        <th>Meaning
-        <th>Compound words w/ the kanji
-        <th>
-        <th>
-        <th><span class="glyphicon glyphicon-book" aria-hidden="true" title="View in Jisho">
-        <th><span class="glyphicon glyphicon-book" aria-hidden="true" title="View in Tangorin">
-
-    </thead>
-
-
+---
+part: 2
+lesson: 7
 number: 171
 
-林
+kanji: 林
+strokes: 8
 
+kunyomi: はやし
+onyomi: リン
 
-はやし
+meaning:
+  translations:
+    - ca: はやし (bosc)
+      en: はやし (woods)
+      es: はやし (bosque)
 
+compound_words:
+  - word: 林
+    kana: はやし
+    translations:
+    - ca: fusta; bosc
+      en: wood; grove
+      es: madera; bosque
+  - word: 小林さん
+    kana: こ・ばやし・さん
+    translations:
+    - ca: Sr./Sra. Kobayashi
+      en: Mr./Mrs. Kobayashi
+      es: Sr./Sra. Kobayashi
+  - word: 林道
+    kana: りん・どう
+    translations:
+    - ca: camí forestal
+      en: forest road
+      es: camino forestal
+---
 
-リン
-
-
-はやし (wood)
-
-
-林<br>
-小林さん<br>
-林道
-
-
-はやし<br>
-こばやしさん<br>
-りんどう
-
-
-wood; grove<br>
-Mr. or Ms. Kobayashi<br>
-forest road
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
+part: 2
+lesson: 7
 number: 172
 
-森
+kanji: 森
+strokes: 12
 
+kunyomi: もり
+onyomi: シン
 
-もり
+meaning:
+  translations:
+    - ca: もり (bosc)
+      en: もり (forest)
+      es: もり (bosque)
 
+compound_words:
+  - word: 森
+    kana: もり
+    translations:
+    - ca: bosc
+      en: forest
+      es: bosque
+  - word: 森さん
+    kana: もり・さん
+    translations:
+    - ca: Sr./Sra. Mori
+      en: Mr./Mrs. Mori
+      es: Sr./Sra. Mori
+  - word: 森林
+    kana: しん・りん
+    translations:
+    - ca: bosc
+      en: forest
+      es: bosque
+---
 
-シン
-
-
-もり (forest)
-
-
-森<br>
-森さん<br>
-森林
-
-
-もり<br>
-もりさん<br>
-しんりん
-
-
-forest<br>
-Mr. or Ms. Mori<br>
-forest
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
+part: 2
+lesson: 7
 number: 173
 
-地
+kanji: 地
+strokes: 6
 
+kunyomi:
+onyomi: ジ<br>チ
 
+meaning:
+  translations:
+    - ca: じめん (terra)
+      en: じめん (ground)
+      es: じめん (suelo)
 
+compound_words:
+  - word: 地図
+    kana: ち・ず
+    translations:
+    - ca: mapa
+      en: map
+      es: mapa
+  - word: 地下鉄
+    kana: ち・か・てつ
+    translations:
+    - ca: metro
+      en: subway
+      es: metro
+  - word: 土地
+    kana: と・ち
+    translations:
+    - ca: terra
+      en: land
+      es: tierra
+  - word: 地震
+    kana: じ・しん
+    translations:
+    - ca: terremoto
+      en: earthquake
+      es: terratrèmol
+---
 
-
-ジ<br>
-チ
-
-
-じめん (ground)
-
-
-地図<br>
-地下鉄<br>
-土地<br>
-地震
-
-
-ちず<br>
-ちかてつ<br>
-とち<br>
-じしん
-
-
-map<br>
-subway<br>
-land<br>
-earthquake
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
+part: 2
+lesson: 7
 number: 174
 
-池
+kanji: 池
+strokes: 6
 
+kunyomi: いけ
+onyomi: チ
 
-いけ
+meaning:
+  translations:
+    - ca: いけ (estany)
+      en: いけ (pond)
+      es: いけ (estanque)
 
+compound_words:
+  - word: 池
+    kana: いけ
+    translations:
+    - ca: estany
+      en: pond
+      es: estanque
+  - word: 電池
+    kana: でん・ち
+    translations:
+    - ca: bateria
+      en: battery
+      es: batería
+---
 
-チ
-
-
-いけ (pond)
-
-
-池<br>
-電池
-
-
-いけ<br>
-でんち
-
-
-pond<br>
-battery
-
-
-
-
-
-
-
-
-
-
-
+---
+part: 2
+lesson: 7
 number: 175
 
-海
+kanji: 海
+strokes: 9
 
+kunyomi: うみ
+onyomi: カイ
 
-うみ
+meaning:
+  translations:
+    - ca: うみ (mar)
+      en: うみ (sea)
+      es: うみ (mar)
 
+compound_words:
+  - word: 海
+    kana: うみ
+    translations:
+    - ca: el mar; l'oceà
+      en: the sea; the ocean
+      es: el mar; el océano
+  - word: 海外
+    kana: かい・がい
+    translations:
+    - ca: països estrangers
+      en: overseas
+      es: países extranjeros
+  - word: 北海道
+    kana: ほっ・かい・どう
+    translations:
+    - ca: Hokkaido
+      en: Hokkaido
+      es: Hokkaidō
+---
 
-カイ
-
-
-うみ (sea)
-
-
-海<br>
-海外<br>
-北海道
-
-
-うみ<br>
-かいがい<br>
-ほっかいどう
-
-
-the sea; the ocean<br>
-overseas<br>
-Hokkaidō
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
+part: 2
+lesson: 7
 number: 176
 
-洋
+kanji: 洋
+strokes: 9
 
+kunyomi:
+onyomi: ヨウ
 
+meaning:
+  translations:
+    - ca: おおきいうみ (oceà)
+      en: おおきいうみ (ocean)
+      es: おおきいうみ (océano)
 
+compound_words:
+  - word: 西洋
+    kana: せい・よう
+    translations:
+    - ca: l'Occident
+      en: the West
+      es: Occidente
+  - word: 東洋
+    kana: とう・よう
+    translations:
+    - ca: l'Orient
+      en: the East
+      es: Oriente
+  - word: 洋服
+    kana: よう・ふく
+    translations:
+    - ca: roba d'estil occidental
+      en: western-style clothes
+      es: ropa de estilo occidental
+  - word: 大西洋
+    kana: たい・せい・よう
+    translations:
+    - ca: Oceà Atlàntic
+      en: Atlantic Ocean
+      es: Océano Atlántico
+---
 
-
-ヨウ
-
-
-おおきいうみ (ocean)
-
-
-西洋<br>
-東洋<br>
-洋服<br>
-大西洋
-
-
-せいよう<br>
-とうよう<br>
-ようふく<br>
-たいせいよう
-
-
-the West<br>
-the East<br>
-western-style clothes<br>
-the Atlantic (Ocean)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
+part: 2
+lesson: 7
 number: 177
 
-雪
+kanji: 雪
+strokes: 11
 
+kunyomi: ゆき
+onyomi: セツ
 
-ゆき
+meaning:
+  translations:
+    - ca: ゆき (neu)
+      en: ゆき (snow)
+      es: ゆき (nieve)
 
+compound_words:
+  - word: 雪
+    kana: ゆき
+    translations:
+    - ca: neu
+      en: snow
+      es: nieve
+  - word: 大雪
+    kana: おお・ゆき
+    translations:
+    - ca: neu pesada
+      en: heavy snow
+      es: nieve pesada
+  - word: 新雪
+    kana: しん・せつ
+    translations:
+    - ca: neu fresca
+      en: fresh snow
+      es: nieve fresca
+---
 
-セツ
-
-
-ゆき (snow)
-
-
-雪<br>
-大雪<br>
-新雪
-
-
-ゆき<br>
-おおゆき<br>
-しんせつ
-
-
-snow<br>
-heavy snow<br>
-fresh snow
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
+part: 2
+lesson: 7
 number: 178
 
-光
+kanji: 光
+strokes: 6
 
+kunyomi: ひかり<br>ひかーる
+onyomi: コウ
 
-ひかり<br>
-ひかーる
+meaning:
+  translations:
+    - ca: ひかり (llum)
+      en: ひかり (light)
+      es: ひかり (luz)
 
+compound_words:
+  - word: 光
+    kana: ひかり
+    translations:
+    - ca: llum
+      en: light
+      es: luz
+  - word: 光る
+    kana: ひか・る
+    translations:
+    - ca: brillar
+      en: to shine
+      es: brillar
+  - word: 日光
+    kana: にっ・こう
+    translations:
+    - ca: llum del sol
+      en: sunlight
+      es: luz del sol
+  - word: 観光
+    kana: かん・こう
+    translations:
+    - ca: turisme
+      en: sightseeing
+      es: turismo
+---
 
-コウ
-
-
-ひかり (light)
-
-
-光<br>
-光る<br>
-日光<br>
-観光
-
-
-ひかり<br>
-ひかる<br>
-にっこう<br>
-かんこう
-
-
-light<br>
-to shine<br>
-sunlight<br>
-sightseeing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
+part: 2
+lesson: 7
 number: 179
 
-台
+kanji: 台
+strokes: 5
 
+kunyomi:
+onyomi: ダイ<br>タイ
 
+meaning:
+  translations:
+    - ca: だい (taula)
+      en: だい (table)
+      es: だい (mesa)
 
+compound_words:
+  - word: 台
+    kana: だい
+    translations:
+    - ca: taula; banc; podi
+      en: table; bench; podium
+      es: mesa; banco; podio
+  - word: 台所
+    kana: だい・どころ
+    translations:
+    - ca: cuina
+      en: kitchen
+      es: cocina
+  - word: 〜台
+    kana: 〜だい
+    translations:
+    - ca: comptador per a màquines
+      en: counter for machines
+      es: contador para máquinas
+  - word: 土台
+    kana: ど・だい
+    translations:
+    - ca: fundació; base
+      en: foundation; basis
+      es: fundación; base
+---
 
-
-ダイ<br>
-タイ
-
-
-だい (table)
-
-
-台<br>
-台所<br>
-〜台<br>
-土台
-
-
-だい<br>
-だいどころ<br>
-〜だい<br>
-どだい
-
-
-stand; rack; bench; podium; pedestal; platform; stage<br>
-kitchen<br>
-counter for machines<br>
-foundation; base; basis
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
+---
+part: 2
+lesson: 7
 number: 180
 
-風
+kanji: 風
+strokes: 9
 
+kunyomi: かぜ
+onyomi: フウ
 
-かぜ
+meaning:
+  translations:
+    - ca: かぜ (vent)<br>ふう (estil)
+      en: かぜ (wind)<br>ふう (style)
+      es: かぜ (viento)<br>ふう (estilo)
 
-
-フウ
-
-
-かぜ (wind)<br>
-ふう (style)
-
-
-風<br>
-台風<br>
-洋風<br>
-風景
-
-
-かぜ<br>
-たいふう<br>
-ようふう<br>
-ふうけい
-
-
-wind<br>
-typhoon<br>
-western style<br>
-scenery
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </table>
-</div>
+compound_words:
+  - word: 風
+    kana: かぜ
+    translations:
+    - ca: vent
+      en: wind
+      es: viento
+  - word: 台風
+    kana: たい・ふう
+    translations:
+    - ca: tifó
+      en: typhoon
+      es: tifón
+  - word: 洋風
+    kana: よう・ふう
+    translations:
+    - ca: estil occidental
+      en: western style
+      es: estilo occidental
+  - word: 風景
+    kana: ふう・けい
+    translations:
+    - ca: paisatge
+      en: scenery
+      es: paisaje
+---

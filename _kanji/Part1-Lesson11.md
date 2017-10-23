@@ -1,6 +1,7 @@
 
-
-
+---
+part: 1
+lesson: 11
 number: 101
 今
 
@@ -25,25 +26,9 @@ number: 101
 きょう
 
 
-now<br>
-this month<br>
-this year<br>
-today
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 11
 number: 102
 会
 
@@ -68,25 +53,9 @@ number: 102
 かいぎ<br>
 
 
-to meet<br>
-conversation<br>
-New Year's party<br>
-meeting<br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 11
 number: 103
 社
 
@@ -111,25 +80,9 @@ number: 103
 じんじゃ
 
 
-society<br>
-company<br>
-president of the company<br>
-shintō shrine
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 11
 number: 104
 店
 
@@ -152,22 +105,9 @@ number: 104
 ばいてん
 
 
-shop<br>
-shop assistant<br>
-stand (kiosk)
 
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 11
 number: 105
 駅
 
@@ -189,22 +129,9 @@ number: 105
 えきまえ
 
 
-station<br>
-station manager<br>
-around the station
 
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 11
 number: 106
 花
 
@@ -229,25 +156,9 @@ number: 106
 はなや
 
 
-flower<br>
-cherry-blossom viewing<br>
-fireworks<br>
-florist
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 11
 number: 107
 国
 
@@ -272,25 +183,9 @@ number: 107
 こくさいかいぎ
 
 
-country; nation<br>
-foreign country<br>
-China<br>
-international conference
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 11
 number: 108
 白
 
@@ -314,22 +209,9 @@ number: 108
 まっしろ
 
 
-white<br>
-official paper (white paper)<br>
-pure white
 
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 11
 number: 109
 空
 
@@ -355,25 +237,9 @@ number: 109
 くうこう
 
 
-sky<br>
-air<br>
-big sky<br>
-airport
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 11
 number: 110
 電
 
@@ -395,26 +261,4 @@ number: 110
 でんわ<br>
 でんき<br>
 でんち
-
-
-train<br>
-telephone<br>
-electricity; light<br>
-battery
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </table>
-</div>
+---

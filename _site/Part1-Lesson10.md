@@ -1,6 +1,7 @@
 
-
-
+---
+part: 1
+lesson: 10
 number: 91
 話
 
@@ -24,25 +25,9 @@ number: 91
 かいわ
 
 
-to speak / talk<br>
-story<br>
-telephone<br>
-conversation
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 10
 number: 92
 読
 
@@ -63,19 +48,9 @@ number: 92
 どくしょ
 
 
-to read<br>
-reading books
 
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 10
 number: 93
 語
 
@@ -98,22 +73,9 @@ number: 93
 がいこくご
 
 
-Japanese language<br>
-Chinese language<br>
-foreign language
 
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 10
 number: 94
 間
 
@@ -139,25 +101,9 @@ number: 94
 まにあう
 
 
-between<br>
-time<br>
-(for) a year<br>
-to be in time
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 10
 number: 95
 聞
 
@@ -181,22 +127,9 @@ number: 95
 しんぶん
 
 
-to listen to<br>
-can be heard<br>
-newspaper
 
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 10
 number: 96
 買
 
@@ -219,22 +152,9 @@ number: 96
 ばいばいする
 
 
-to buy<br>
-to shop<br>
-to buy and sell
 
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 10
 number: 97
 休
 
@@ -259,25 +179,9 @@ number: 97
 なつやすみ
 
 
-to rest<br>
-holiday (break)<br>
-holiday (day off)<br>
-summer vacation
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 10
 number: 98
 時
 
@@ -302,25 +206,9 @@ number: 98
 とけい
 
 
-time; when<br>
-4 o'clock<br>
-one hour<br>
-clock; watch
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 10
 number: 99
 週
 
@@ -343,25 +231,9 @@ number: 99
 こんしゅう
 
 
-one week<br>
-next week<br>
-last week<br>
-this week
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 10
 number: 100
 道
 みち
@@ -382,26 +254,4 @@ number: 100
 しゃどう<br>
 すいどう<br>
 しょどう
-
-
-street; road; way<br>
-roadway<br>
-water supply<br>
-calligraphy
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </table>
-</div>
+---

@@ -1,358 +1,404 @@
 
-
-
+---
+part: 1
+lesson: 8
 number: 71
-大
-おおーきい
-ダイ／タイ
-おおきい (big)
 
-大きい<br>
-大学<br>
-アシア大会<br>
-大人
+kanji: 大
+strokes: 3
+
+kunyomi: おおーきい
+onyomi: ダイ／タイ
+
+meaning:
+  translations:
+    - ca:
+      en: おおきい (big)
+      es:
+
+compound_words:
+  - word: 大きい
+    kana: おお・きい
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 大学
+    kana: だい・がく
+    translations:
+    - ca:
+      en:
+      es:
+  - word: アシア大会
+    kana: アシア・たい・かい
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 大人
+    kana: おとな
+    translations:
+    - ca:
+      en:
+      es:
 
 
-おおきい<br>
-だいがく<br>
-アシアたいかい<br>
-おとな
 
-
-big<br>
-university<br>
-Asian Games<br>
-adult
-				
-
-
-
-					
-
-
-
-
-
-
-
-
-
-
+part: 1
+lesson: 8
 number: 72
-小
 
-ちいーさい<br>
-お<br>
-こ
+kanji: 小
+strokes: 3
 
-ショウ
-ちいさい (small)
+kunyomi: ちいーさい<br>お<br>こ
+onyomi: ショウ
 
-小さい<br>
-小川<br>
-小学校<br>
-小犬
+meaning:
+  translations:
+    - ca:
+      en: ちいさい (small)
+      es:
+
+compound_words:
+  - word: 小さい
+    kana: ちい・さい
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 小川
+    kana: お・がわ
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 小学校
+    kana: しょう・がっ・こう
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 小犬
+    kana: こ・いぬ
+    translations:
+    - ca:
+      en:
+      es:
 
 
-ちいさい<br>
-おがわ<br>
-しょうがっこう<br>
-こいぬ
 
-
-small<br>
-small stream<br>
-primary school<br>
-puppy
-				
-
-
-
-					
-					
-
-
-
-
-
-					
-
-
+part: 1
+lesson: 8
 number: 73
-高
-たかーい
-コウ
 
-たかい (high)<br>
-たかい (expensive)
+kanji: 高
+strokes: 10
+
+kunyomi: たかーい
+onyomi: コウ
+
+meaning:
+  translations:
+    - ca:
+      en: たかい (high)<br>たかい (expensive)
+      es:
+
+compound_words:
+  - word: 高い
+    kana: たか・い
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 高校生
+    kana: こう・こう・せい
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 円高
+    kana: えん・だか
+    translations:
+    - ca:
+      en:
+      es:
 
 
-高い<br>
-高校生<br>
-円高
 
-
-たかい<br>
-こうこうせい<br>
-えんだか
-
-
-high; expensive<br>
-high school student<br>
-strong yen
-				
-
-
-					
-					
-
-
-
-
-					
-
-
+part: 1
+lesson: 8
 number: 74
-安
-やすーい
-アン
 
-やすい (cheap)<br>
-あんぜん (safe)
+kanji: 安
+strokes: 6
+
+kunyomi: やすーい
+onyomi: アン
+
+meaning:
+  translations:
+    - ca:
+      en: やすい (cheap)<br>あんぜん (safe)
+      es:
+
+compound_words:
+  - word: 安い
+    kana: やす・い
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 安心する
+    kana: あん・しん・する
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 安全
+    kana: あん・ぜん
+    translations:
+    - ca:
+      en:
+      es:
 
 
-安い<br>
-安心する<br>
-安全
 
-
-やすい<br>
-あんしんする<br>
-あんぜん
-
-
-cheap<br>
-to be relieved<br>
-safety
-				
-
-
-					
-					
-
-
-
-
-					
-
-
+part: 1
+lesson: 8
 number: 75
-新
-あたらーしい
-シン
-あたらしい (new)
 
-新しい<br>
-新聞<br>
-新人<br>
-新年
+kanji: 新
+strokes: 13
+
+kunyomi: あたらーしい
+onyomi: シン
+
+meaning:
+  translations:
+    - ca:
+      en: あたらしい (new)
+      es:
+
+compound_words:
+  - word: 新しい
+    kana: あたら・しい
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 新聞
+    kana: しん・ぶん
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 新人
+    kana: しん・じん
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 新年
+    kana: しん・ねん
+    translations:
+    - ca:
+      en:
+      es:
 
 
-あたらしい<br>
-しんぶん<br>
-しんじん<br>
-しんねん
 
-
-new<br>
-newspaper<br>
-newcomer<br>
-new year
-				
-
-
-
-					
-					
-
-
-
-					
-
-					
-
-
+part: 1
+lesson: 8
 number: 76
-古
-ふるーい
-コ
-ふるい (old)
 
-古い<br>
-中古車
+kanji: 古
+strokes: 5
+
+kunyomi: ふるーい
+onyomi: コ
+
+meaning:
+  translations:
+    - ca:
+      en: ふるい (old)
+      es:
+
+compound_words:
+  - word: 古い
+    kana: ふる・い
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 中古車
+    kana: ちゅう・こ・しゃ
+    translations:
+    - ca:
+      en:
+      es:
 
 
-ふるい<br>
-ちゅうこしゃ
 
-
-old<br>
-used card
-				
-
-
-					
-
-
-
-					
-
-
+part: 1
+lesson: 8
 number: 77
-長
-ながーい
-チョウ
 
-ながい (long)<br>
-一番上の人 (chief)
+kanji: 長
+strokes: 8
+
+kunyomi: ながーい
+onyomi: チョウ
+
+meaning:
+  translations:
+    - ca:
+      en: ながい (long)<br>一番上の人 (chief)
+      es:
+
+compound_words:
+  - word: 長い
+    kana: なが・い
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 社長
+    kana: しゃ・ちょう
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 学長
+    kana: がく・ちょう
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 校長
+    kana: こう・ちょう
+    translations:
+    - ca:
+      en:
+      es:
 
 
-長い<br>
-社長<br>
-学長<br>
-校長
 
-
-ながい<br>
-しゃちょう<br>
-がくちょう<br>
-こうちょう
-
-
-long<br>
-company president<br>
-university president (chancellor)<br>
-school principal
-				
-
-
-
-					
-					
-
-
-
-					
-
-					
-
-
+part: 1
+lesson: 8
 number: 78
-多
-おおーい
-タ
 
-おおい (many)<br>
-おおい (much)
+kanji: 多
+strokes: 6
+
+kunyomi: おおーい
+onyomi: タ
+
+meaning:
+  translations:
+    - ca:
+      en: おおい (many)<br>おおい (much)
+      es:
+
+compound_words:
+  - word: 多い
+    kana: おお・い
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 多少
+    kana: た・しょう
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 多数決
+    kana: た・すう・けつ
+    translations:
+    - ca:
+      en:
+      es:
 
 
-多い<br>
-多少<br>
-多数決
 
-
-おおい<br>
-たしょう<br>
-たすうけつ
-
-
-many; much<br>
-a little<br>
-decision by majority
-				
-
-
-
-					
-
-
-
-					
-					
-
-
+part: 1
+lesson: 8
 number: 79
-少
 
-すくーない<br>
-すこーし
+kanji: 少
+strokes: 4
 
-ショウ
+kunyomi: すくーない<br>すこーし
+onyomi: ショウ
 
-すくない (few)<br>
-すこし (little)
- 
+meaning:
+  translations:
+    - ca:
+      en: すくない (few)<br>すこし (little)
+      es:
 
-少ない<br>
-少し<br>
-少年<br>
-少女
+compound_words:
+  - word: 少ない
+    kana: すく・ない
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 少し
+    kana: すこ・し
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 少年
+    kana: しょう・ねん
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 少女
+    kana: しょう・じょ
+    translations:
+    - ca:
+      en:
+      es:
 
 
-すくない<br>
-すこし<br>
-しょうねん<br>
-しょうじょ
 
-
-few; little<br>
-a few; a little<br>
-boy<br>
-girl
-				
-
-
-
-					
-					
-
-
-
-					
-
-					
-
-
+part: 1
+lesson: 8
 number: 80
-早
-はやーい
-ソウ
-はやい (early)
 
-早い<br>
-早朝<br>
-早送り
+kanji: 早
+strokes: 6
 
+kunyomi: はやーい
+onyomi: ソウ
 
-はやい<br>
-そうちょう<br>
-はやおくり
+meaning:
+  translations:
+    - ca:
+      en: はやい (early)
+      es:
 
-
-early<br>
-early morning<br>
-fast forward
-				
-
-
-					
-					
-
-
-
-
-					
-
-
-  </table>
-</div>
+compound_words:
+  - word: 早い
+    kana: はや・い
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 早朝
+    kana: そう・ちょう
+    translations:
+    - ca:
+      en:
+      es:
+  - word: 早送り
+    kana: はや・おく・り
+    translations:
+    - ca:
+      en:
+      es:
+---
