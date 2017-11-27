@@ -18,5 +18,5 @@ timezone:      Europe/Madrid
 # My collections
 collections:
   kanji:
-    output:     true
+    output:     false
     permalink:  /:collection/:name
