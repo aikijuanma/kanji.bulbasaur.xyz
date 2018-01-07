@@ -1,11 +1,11 @@
 # Setup
 title: にほんご チャレンジ かんじ N4-5
-url:   http://kanji-n4-5.bulbasaur.xyz
+url:   http://kanji.bulbasaur.xyz
 
 # Custom vars
 version: 0.0.0
 github:
-  repo:  https://github.com/aikijuanma/kanji-n4-5.bulbasaur.xyz
+  repo:  https://github.com/aikijuanma/kanji.bulbasaur.xyz
 
 # Serving
 port:             4000
