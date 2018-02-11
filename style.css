@@ -1,0 +1,406 @@
+*:focus {
+  outline: 0 !important;
+}
+body {
+  color: Black;
+  font-size: 16px;
+  padding-top: 50px;
+}
+table thead,
+table tbody {
+  display: table-row-group;
+  vertical-align: middle !important;
+}
+table thead tr,
+table tbody tr {
+  display: table-row;
+  vertical-align: middle !important;
+}
+table thead tr th,
+table tbody tr th {
+  display: table-cell;
+  vertical-align: middle !important;
+}
+table thead tr th:nth-child(1),
+table thead tr th:nth-child(2),
+table thead tr th:nth-child(3),
+table thead tr th:nth-child(4),
+table thead tr th:nth-child(5),
+table thead tr th:nth-last-child(1),
+table thead tr th:nth-last-child(2) {
+  text-align: center;
+}
+table thead tr th:nth-last-child(1) {
+  color: OrangeRed;
+}
+table thead tr th:nth-last-child(2) {
+  color: Chartreuse;
+}
+table thead tr th span {
+  cursor: help;
+}
+table tbody tr th:nth-child(1) {
+  text-align: center;
+}
+table tbody tr td {
+  display: table-cell;
+  vertical-align: middle !important;
+}
+table tbody tr td a,
+table tbody tr td a:active,
+table tbody tr td a:focus,
+table tbody tr td a:hover,
+table tbody tr td a:visited {
+  color: Black;
+  text-decoration: none;
+}
+table tbody tr td a {
+  opacity: .8;
+  text-decoration: none !important;
+}
+table tbody tr td a:hover {
+  opacity: 1;
+  text-decoration: none !important;
+}
+table tbody tr td a span.glyphicon-link {
+  font-size: .8em;
+}
+table tbody tr td:nth-child(1),
+table tbody tr td:nth-child(2),
+table tbody tr td:nth-child(3),
+table tbody tr td:nth-child(4),
+table tbody tr td:nth-child(5),
+table tbody tr td:nth-last-child(1),
+table tbody tr td:nth-last-child(2) {
+  text-align: center;
+}
+table tbody tr td:nth-child(2) {
+  cursor: help;
+  font-family: "HiraKakuPro-W3", "Hiragino Kaku Gothic Pro W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "游ゴシック", YuGothic, "ＭＳ Ｐゴシック", "MS PGothic", "ＭＳ ゴシック", "MS Gothic", sans, sans-serif;
+  font-size: 3em;
+}
+table tbody tr td:nth-child(2):hover {
+  font-family: "HiraMinPro-W3", "Hiragino Mincho Pro W3", "Hiragino Mincho Pro", "ヒラギノ明朝 Pro W3", "游明朝", YuMincho, "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", "MS Mincho", serif;
+}
+.alert {
+  border-radius: 0;
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+.alert a {
+  font-weight: bold;
+}
+.alert a:focus,
+.alert a:hover {
+  text-decoration: underline;
+}
+.alert a[type="button"] {
+  color: White;
+  font-weight: none;
+}
+.alert a[type="button"]:focus,
+.alert a[type="button"]:hover {
+  text-decoration: none;
+}
+.alert-danger a {
+  color: #a94442;
+}
+.alert-warning a {
+  color: #8a6d3b;
+}
+.arabiasuuji {
+  background-color: LavenderBlush;
+}
+.hide {
+  display: none;
+}
+.hiragana {
+  background-color: Lavender;
+}
+.kanji.unknown {
+  background-color: LemonChiffon;
+}
+.katakana {
+  background-color: HoneyDew;
+}
+.navbar {
+  z-index: 999;
+}
+.navbar-brand {
+  color: Black !important;
+  font-size: 14px;
+}
+.navbar-brand span:nth-child(1) {
+  font-weight: bold;
+}
+.navbar-brand span:nth-child(2) {
+  color: Yellow;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: light;
+}
+.navbar .btn.btn-link {
+  color: Black;
+  padding: 14px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.navbar .btn.btn-link:before {
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  margin: 0 5px;
+  position: relative;
+  top: 1px;
+}
+.navbar .btn.btn-link:hover {
+  color: Yellow;
+}
+.navbar .btn.btn-link[title="Hide Extra Compound Words"] {
+  background-color: Yellow;
+  color: Black;
+}
+.navbar .btn.btn-link[title="Hide Extra Compound Words"]:before {
+  content: "\e106";
+}
+.navbar .btn.btn-link[title="Hide Extra Compound Words"]:hover {
+  text-decoration: none;
+}
+.navbar .btn.btn-link[title="Show Extra Compound Words"]  {
+  background-color: transparent;
+  color: Black;
+}
+.navbar .btn.btn-link[title="Show Extra Compound Words"]:before {
+  content: "\e105";
+}
+.navbar .btn.btn-link[title="Show Extra Compound Words"]:hover {
+  color: Yellow;
+  text-decoration: none;
+}
+.navbar-default {
+  background-color: Magenta;
+  border-color: Yellow;
+  color: Black !important;
+}
+.navbar-default .navbar-collapse {
+  border-color: Yellow;
+  max-height: 480px;
+  overflow-y: auto;
+}
+.navbar-default .navbar-collapse .navbar-link,
+.navbar-default .navbar-collapse .navbar-link:active,
+.navbar-default .navbar-collapse .navbar-link:focus,
+.navbar-default .navbar-collapse .navbar-link:visited {
+  color: Black;
+  text-decoration: none !important;
+}
+.navbar-default .navbar-collapse .navbar-link:hover {
+  color: Yellow !important;
+  text-decoration: none;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid transparent;
+  border-color: Black;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+  border-color: Yellow;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: Black;
+}
+.navbar-default .navbar-toggle:focus .icon-bar,
+.navbar-default .navbar-toggle:hover .icon-bar {
+  background-color: Yellow;
+}
+.navbar-default .navbar-link,
+.navbar-default .navbar-link:active,
+.navbar-default .navbar-link:focus,
+.navbar-default .navbar-link:visited {
+  color: Black;
+  font-size: 14px;
+  text-decoration: none !important;
+}
+.navbar-default .navbar-link:hover {
+  color: Yellow;
+  text-decoration: none;
+}
+.navbar-right {
+  margin: 0;
+  margin-right: 0;
+}
+.navbar-nav .dropdown .dropdown-menu {
+  background-color: White;
+}
+.navbar-nav .dropdown .dropdown-toggle {
+  color: Black;
+  font-size: 14px;
+}
+.navbar-nav .dropdown .dropdown-toggle:hover {
+  color: Yellow;
+}
+.navbar-nav .dropdown.open .dropdown-toggle {
+  background-color: Yellow !important;
+  color: Black;
+}
+.page-header {
+  margin: 0 0 20px;
+  padding-top: 40px;
+  position: relative;
+}
+.page-header h1 {
+  display: block;
+  margin-right: 10%;
+}
+.page-header h1 small {
+  display: inline-block;
+}
+.page-header .wrapper {
+  display: block;
+  float: right;
+  margin-top: -17px;
+}
+.page-header .wrapper .card-link,
+.page-header .wrapper .extra-link,
+.page-header .wrapper .print-link {
+  color: Black;
+  cursor: pointer;
+  float: right;
+  margin-left: 10px;
+  opacity: .8;
+  text-decoration: none !important;
+}
+.page-header .wrapper .card-link:hover,
+.page-header .wrapper .extra-link:hover,
+.page-header .wrapper .print-link:hover {
+  color: Black;
+  opacity: 1;
+}
+.page-header .wrapper .card-link .glyphicon,
+.page-header .wrapper .extra-link .glyphicon,
+.page-header .wrapper .print-link .glyphicon {
+  margin: 0 5px;
+}
+.read-more,
+.read-more:active,
+.read-mpre:focus,
+.read-more:hover {
+  text-decoration: underline !important;
+}
+.show {
+  display: block;
+}
+.touchevents .page-header .wrapper {
+  display: none;
+}
+.warning {
+  color: Red !important;
+}
+@media (max-width: 1279px) {
+  .page-header .wrapper a > span:nth-of-type(2){
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  .navbar .btn.btn-link {
+    padding: 10px 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .page-header > small {
+    display: block;
+  }
+  .page-header .wrapper {
+    display: block;
+  }
+}
+@media print {
+  @page {
+    margin: 0;
+  }
+  body {
+    font-size: 12px;
+    margin: 0 1cm;
+    padding: 0;
+    padding-top: 0;
+  }
+  div {
+    float: none !important;
+  }
+  table,
+  table tbody {
+    page-break-after: auto !important;
+    page-break-before: auto !important;
+    page-break-inside: auto !important;
+  }
+  table thead tr th:nth-child(1),
+  table tbody tr th:nth-child(1) {
+    display: none;
+  }
+  table thead tr th:nth-child(2) {
+    width: 5%;
+  }
+  table thead tr th:nth-child(3) {
+    width: 10%;
+  }
+  table thead tr th:nth-child(4) {
+    width: 10%;
+  }
+  table thead tr th:nth-child(5) {
+    width: 10%;
+  }
+  table thead tr th:nth-child(6) {
+    width: 20%;
+  }
+  table thead tr th:nth-child(7) {
+    width: 20%;
+  }
+  table thead tr th:nth-child(8) {
+    width: 25%;
+  }
+  table thead tr th:nth-last-child(1),
+  table thead tr th:nth-last-child(2),
+  table tbody tr td:nth-last-child(1),
+  table tbody tr td:nth-last-child(2) {
+    display: none;
+  }
+  table tbody tr {
+    page-break-after: auto !important;
+    page-break-inside: avoid !important;
+  }
+  table tbody tr td:nth-child(2) {
+    font-family: "HiraMinPro-W3", "Hiragino Mincho Pro W3", "Hiragino Mincho Pro", "ヒラギノ明朝 Pro W3", "游明朝", YuMincho, "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", "MS Mincho", serif;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  .alert,
+  .card-link,
+  .extra-link,
+  .navbar,
+  .print-link,
+  .read-more,
+  .smile
+  }
+  .row > div > div {
+    page-break-after: always;
+  }
+  .row > div > div:nth-child(1) .page-header {
+    page-break-before: avoid !important;
+  }
+  .page-header {
+    margin: 0;
+    padding-top: 0px;
+    page-break-after: avoid;
+  }
+  .page-header h1 {
+    font-size: 1.5em;
+  }
+  .page-header > small {
+    display: inline;
+    font-size: 1em;
+  }
+}

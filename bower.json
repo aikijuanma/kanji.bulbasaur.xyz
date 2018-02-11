@@ -1,0 +1,20 @@
+{
+  "name": "nihongo-challenge-kanji-n4-n5",
+  "homepage": "https://github.com/jasonlint/nihongo-challenge-kanji-n4-n5",
+  "authors": [
+    "Jordan Wellington Lint <hello@jasonlint.net>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "GNU General Public License v3.0",
+  "private": true,
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jQuery.print": "DoersGuild/jQuery.print#^1.4.0",
+    "modernizr": "^3.3.1"
+  }
+}
